@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>omg!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <center>
+            <button id="meuBotao">Clica aqui.. safada</button>
+            <p id="meuTexto">...</p>
+        </center>
+    </div>
+    <audio src="Oruam ft. Borges - Crias da Mainstreet (Prévia).mp3" autoplay id="musica"></audio>
+    <script>
+        document.getElementById("meuBotao").addEventListener("click", function(){
+    // 1. Formatar o texto
+    var texto = document.getElementById("meuTexto").innerHTML = "Lucas é Gay";
+
+    texto = document.getElementById("meuTexto");
+    texto.style.fontSize= "30px";
+
+    // 2. Tocar música
+    var musica = document.getElementById("musica");
+    musica.play(); // Tocar a música
+
+    
+});
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(https://pbs.twimg.com/media/GMwozjMb0AAA-Fz.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-size-adjust: 12em;
+    background-size: cover;
+}
+
+div {
+    text-align: center;
+    text-decoration: solid;
+    padding: 23em;
+}
+
+p {
+    background-color: blueviolet;
+    color: black;
+    border: 3px solid;
+    height: 5em;
+    width: 10em;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 4em;
+    
+}
+
+button {
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    border: 3px solid;
+    border-radius: 8px;
+}
+
